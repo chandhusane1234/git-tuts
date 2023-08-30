@@ -10,6 +10,11 @@ resource "aws_instance" "example_instance" {
   }
 }
 
+
+
+
+
+
 resource "aws_security_group_rule" "example_ssh_rule" {
   type        = "ingress"
   from_port   = 22
