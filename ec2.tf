@@ -8,7 +8,17 @@ resource "aws_instance" "example_instance" {
     kms_key_id            = aws_kms_key.my_kms_key.key_id
     delete_on_termination = true
   }
-}
+}   
+
+
+
+
+
+
+
+
+
+
 
 
 
